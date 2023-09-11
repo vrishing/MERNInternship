@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(139, 36, 72);
+        }
+        form{
+            background-color: rgb(92, 0, 29);
+            width: fit-content;
+            color: white;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+        table{
+            margin: 10px;
+        }
+        td{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <form>
+    <table>
+        <tr><td>Name:</td><td><input type="text" placeholder="your name" name="name" /></td></tr>
+        <tr><td>Email:</td><td><input type="text" placeholder="your email" name="email" /></td></tr>
+        <tr><td>Password:</td><td><input type="password" name="pwd" /></td></tr>
+        <tr><td>Phone Number:</td><td><input type="number" name="num" /></td></tr>
+        <tr><td>Gender:</td><td>Male:<input type="radio" name="gender" />Female:<input type="radio" name="gender" />Other:<input type="radio" name="gender" /></td></tr>
+        <tr><td>Language</td><td><select>
+            <option name="select">Select Language</option>
+            <option name="eng">English</option>
+            <option name="hin">Hindi</option>
+            <option name="tel">Telugu</option>
+        </select></td></tr>
+        <tr><td>Zip Code:</td><td><input type="number" /></td></tr>
+        <tr><td>About:</td><td><textarea rows="2" cols="20" placeholder="write about yourself..."></textarea></td></tr>
+        <tr><td colspan="2"><center><button type="submit">Register</button></center></td></tr>
+    </table>
+    </form>
+    </center>
+</body>
+</html>

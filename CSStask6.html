@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: darkgray;
+        }
+        form{
+            width: 60%;
+            text-align: left;
+            background-color: white;
+        }
+        .labelclass{
+            margin: 10px;
+            text-align: left !important;
+        }
+        input{
+            width: 90%;
+            height: 15px;
+            padding: 10px 20px;
+            margin: 10px;
+        }
+        .imgalign{
+            text-align: center !important;
+        }
+        .button1{
+            width: 95%;
+            background-color: green;
+            color: white;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+        }
+        .button2{
+            background-color: red;
+            border-radius: 5px;
+            padding: 10px;
+            color: white;
+            text-align: left !important;
+            width: auto;
+        }
+        .container{
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Login Form</h1>
+    <div>
+        <form>
+        <div class="imgalign">
+            <img src="./profilepicture.png" alt="profile picture" width="200px" />
+        </div>
+        <div class="container">
+        <label for="username" class="labelclass"><b>Username</b></label><br />
+        <input type="text" name="username" placeholder="Enter Username" /><br />
+        <label for="password" class="labelclass"><b>Password</b></label><br />
+        <input type="password" name="password" placeholder="Enter Password" /><br />
+        <button type="submit" class="button1">Login</button><br />
+        <label>
+            <input type="checkbox" />Remember me
+        </label><br />
+        </div>
+        <div style="background-color: darkgray;">
+        <button type="reset" class="button2">Cancel</button>
+        
+    <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+</form>
+    </center>
+</body>
+</html>
